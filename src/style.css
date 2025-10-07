@@ -5,7 +5,7 @@
     --color-raju-500: blue;
 } */
 
-@layer base {
+/* @layer base {
   body {
     @apply flex min-h-screen items-center justify-center bg-gray-100 dark:bg-gray-900;
   }
@@ -49,5 +49,11 @@
         @apply flex items-center justify-center;
     }
 }
+ */
 
 
+@layer components {
+  .nav-link {
+    @apply px-[4px] py-[2px] text-[16px] font-semibold text-white transition-colors duration-200 hover:text-indigo-600 ease-linear;
+  }
+}
